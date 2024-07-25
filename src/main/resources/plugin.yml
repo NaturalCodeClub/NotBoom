@@ -1,0 +1,11 @@
+name: NotBoom
+version: '1.0-SNAPSHOT'
+main: org.ncc.notBoom.Main
+api-version: '1.20'
+folia-supported: true
+commands:
+  notboom:
+    permission: "notboom.usage"
+permissions:
+  notboom.usage:
+    default: op
